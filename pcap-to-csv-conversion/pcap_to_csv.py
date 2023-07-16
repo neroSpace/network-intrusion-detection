@@ -9,8 +9,8 @@ pcap_path = "C:\\Users\\asus\\Documents\\tugas-akhir\\resources\\nids-pcap-datas
 prob_pcap_path = "C:\\Users\\asus\\Documents\\tugas-akhir\\resources\\dummy_dataset"
 
 def get_file_list(dir, header_saved):
-    header_tshark_cmd = 'tshark -r {} -T fields -Y http -E header=y -E separator=, -E quote=d -E occurrence=f -e _ws.col.Source -e _ws.col.Destination -e _ws.col.sport -e _ws.col.dport -e _ws.col.Protocol  -e _ws.col.start_time -e _ws.col.Info >> {}.csv'
-    newest_tshark_cmd = 'tshark -r {} -T fields -Y http -E header=n -E separator=, -E quote=d -E occurrence=f -e _ws.col.Source -e _ws.col.Destination -e _ws.col.sport -e _ws.col.dport -e _ws.col.Protocol  -e _ws.col.start_time -e _ws.col.Info >> {}.csv'
+    header_tshark_cmd = 'tshark -r {} -T fields -Y http -E header=y -E separator=, -E quote=d -E occurrence=f -e _ws.col.Source -e _ws.col.Destination -e _ws.col.sport -e _ws.col.dport -e _ws.col.Protocol -e _ws.col.Info >> {}.csv'
+    newest_tshark_cmd = 'tshark -r {} -T fields -Y http -E header=n -E separator=, -E quote=d -E occurrence=f -e _ws.col.Source -e _ws.col.Destination -e _ws.col.sport -e _ws.col.dport -e _ws.col.Protocol -e _ws.col.Info >> {}.csv'
 
     for root, dirs, files in os.walk(dir, header_saved):
         for file in files:
