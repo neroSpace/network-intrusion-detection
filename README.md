@@ -21,4 +21,4 @@ PyGOD for anomaly detection
 I welcome collaboration and feedback from fellow developers, security enthusiasts, and anyone interested in enhancing network security. Together, we can fortify our digital landscapes against emerging threats.
 
 📧 Contact:
-Feel free to reach out to me via email at [Your Email Address] or connect on [Your LinkedIn Profile] for discussions, suggestions, or potential partnerships.
+Feel free to reach out to me via email at m.farhan.haykal@gmail.com or connect on https://www.linkedin.com/in/haykalf for discussions, suggestions, or potential partnerships.
