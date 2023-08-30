@@ -1,5 +1,6 @@
 # network-intrusion-detection
 📌 Description:
+
 Welcome to my repository showcasing an innovative approach to Network Intrusion Detection using Graph Anomaly detection techniques. In a rapidly evolving digital landscape, safeguarding network infrastructures from malicious activities is of paramount importance. This project presents a cutting-edge solution harnessing the power of machine learning and graph analysis to identify anomalous behaviors within network traffic.
 
 🚀 Key Features:
